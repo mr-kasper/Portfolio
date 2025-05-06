@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Sora } from 'next/font/google';
 import './globals.css';
+import ResponsiveNav from '@/components/Home/Navbar/ResponsiveNav';
 
 const font = Sora({
   variable: '--font-sora',
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.variable} antialiased`}>{children}</body>
+      <body className={`${font.variable} antialiased`}>
+        <ResponsiveNav />
+        {children}
+      </body>
     </html>
   );
 }
