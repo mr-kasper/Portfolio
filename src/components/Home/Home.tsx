@@ -2,6 +2,7 @@ import About from './About/About';
 import Hero from './Hero/Hero';
 import Project from './Project/Project';
 import Services from './Services/Services';
+import Skills from './Skills/Skills';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <About />
       <Services />
       <Project />
+      <Skills />
     </main>
   );
 };
