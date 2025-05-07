@@ -75,38 +75,23 @@ export const projectData = [
   },
   {
     id: 2,
-    image: '/images/p2.png',
-    url: 'https://burger-pearl.vercel.app/',
+    image: '/images/p1.png',
+    url: 'https://agency-opal-eight.vercel.app/',
   },
   {
     id: 3,
-    image: '/images/p3.png',
-    url: 'https://game-ecommerce-yt.vercel.app/',
+    image: '/images/p1.png',
+    url: 'https://agency-opal-eight.vercel.app/',
   },
   {
     id: 4,
-    image: '/images/p4.png',
-    url: 'https://elearning-yt.vercel.app/',
+    image: '/images/p1.png',
+    url: 'https://agency-opal-eight.vercel.app/',
   },
   {
     id: 5,
-    image: '/images/p5.png',
-    url: 'https://invest-peach.vercel.app/',
-  },
-  {
-    id: 6,
-    image: '/images/p6.png',
-    url: 'https://job-chi-ruby.vercel.app/',
-  },
-  {
-    id: 7,
-    image: '/images/p7.png',
-    url: 'https://wdw-ecom.vercel.app/',
-  },
-  {
-    id: 8,
-    image: '/images/p8.png',
-    url: 'https://webhost-ten.vercel.app/',
+    image: '/images/p1.png',
+    url: 'https://agency-opal-eight.vercel.app/',
   },
 ];
 
