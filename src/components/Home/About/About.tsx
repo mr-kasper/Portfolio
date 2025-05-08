@@ -5,7 +5,7 @@ import { FaCheck } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <div className="py-16 bg-[#050709]">
+    <div id="about" className="py-16 bg-[#050709]">
       <SectionHeading>About Me</SectionHeading>
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
         <div>

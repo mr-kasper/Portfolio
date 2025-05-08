@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Project = () => {
   return (
-    <div className="py-16 bg-[#050709]">
+    <div id="projects" className="py-16 bg-[#050709]">
       <SectionHeading>My Projects</SectionHeading>
       <div className="w-[80%] mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center">
         {projectData.map((project) => (
