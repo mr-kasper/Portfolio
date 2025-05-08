@@ -3,6 +3,7 @@ import { Sora } from 'next/font/google';
 import './globals.css';
 import ResponsiveNav from '@/components/Home/Navbar/ResponsiveNav';
 import Footer from '@/components/Home/Footer/Footer';
+import { Toaster } from 'react-hot-toast';
 
 const font = Sora({
   variable: '--font-sora',
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${font.variable} antialiased`}>
+        <Toaster position="top-center" reverseOrder={false} />
         <ResponsiveNav />
         {children}
         <Footer />
