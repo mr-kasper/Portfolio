@@ -1,12 +1,17 @@
 import SectionHeading from '@/components/Helper/SectionHeading';
-import { aboutInfo } from '@/Data/data';
+import { getAboutInfo } from '@/Data/translatedData';
 import Image from 'next/image';
 import { FaCheck } from 'react-icons/fa';
+import { useTranslations } from 'next-intl';
 
 const About = () => {
+  const t = useTranslations('about');
+  const tServices = useTranslations('services');
+  const aboutInfo = getAboutInfo();
+
   return (
     <div id="about" className="py-16 bg-[#050709]">
-      <SectionHeading>About Me</SectionHeading>
+      <SectionHeading>{t('title')}</SectionHeading>
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
         <div data-aos="fade-left" data-aos-anchor-placement="top-center">
           <h1 className="text-bg text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200">
@@ -19,7 +24,7 @@ const About = () => {
                 <FaCheck className="text-white" />
               </div>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-300">
-                Frontend Development
+                {tServices('frontend')}
               </p>
             </div>
 
@@ -28,7 +33,7 @@ const About = () => {
                 <FaCheck className="text-white" />
               </div>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-300">
-                Backend Development
+                {tServices('backend')}
               </p>
             </div>
 
@@ -37,7 +42,7 @@ const About = () => {
                 <FaCheck className="text-white" />
               </div>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-300">
-                Full Stack Development
+                {tServices('fullstack')}
               </p>
             </div>
           </div>
@@ -57,7 +62,7 @@ const About = () => {
               className="mx-auto"
             />
             <p className="mt-3 font-bold text-xl text-white text-center">{aboutInfo.experience}</p>
-            <p className="text-base sm:text-lg text-gray-400 text-center">Years</p>
+            <p className="text-base sm:text-lg text-gray-400 text-center">{t('years')}</p>
           </div>
 
           <div>
@@ -69,7 +74,9 @@ const About = () => {
               className="mx-auto"
             />
             <p className="mt-3 font-bold text-xl text-white text-center">{aboutInfo.project}</p>
-            <p className="text-base sm:text-lg text-gray-400 text-center">Completed Project</p>
+            <p className="text-base sm:text-lg text-gray-400 text-center">
+              {t('completedProjects')}
+            </p>
           </div>
 
           <div>
@@ -81,7 +88,9 @@ const About = () => {
               className="mx-auto"
             />
             <p className="mt-3 font-bold text-xl text-white text-center">{aboutInfo.website}</p>
-            <p className="text-base sm:text-lg text-gray-400 text-center">Website Launched</p>
+            <p className="text-base sm:text-lg text-gray-400 text-center">
+              {t('websitesLaunched')}
+            </p>
           </div>
         </div>
       </div>

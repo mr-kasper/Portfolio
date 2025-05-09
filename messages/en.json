@@ -1,0 +1,76 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Welcome to my Portfolio",
+    "subtitle": "I'm a Full Stack Developer",
+    "description": "Building modern web experiences with cutting-edge technologies",
+    "button": "Download CV"
+  },
+  "about": {
+    "title": "About",
+    "description": "Hi, I'm Rachid Saadi — a full-stack developer with a strong focus on the frontend. I specialize in building high-performance, user-centric applications using technologies like React.js, Next.js, TypeScript, and Tailwind CSS. I'm passionate about clean design, smooth interactions, and maintainable code.\n\nOn the backend, I'm proficient with Node.js, Prisma, Drizzle ORM, NestJS, and GraphQL, and I work confidently with MySQL and PostgreSQL to ensure reliable, scalable data solutions.\n\nWhether it's a real-time messaging app, a file-sharing platform, or a scalable admin dashboard, I enjoy turning ideas into intuitive and efficient digital experiences.\n\nLet's build something amazing together.",
+    "years": "Years",
+    "completedProjects": "Completed Projects",
+    "websitesLaunched": "Websites Launched"
+  },
+  "services": {
+    "title": "My Services",
+    "description": "Professional services I offer to help your business grow.",
+    "frontend": "Frontend Development",
+    "backend": "Backend Development",
+    "fullstack": "Fullstack Development",
+    "webApplications": "Web Applications",
+    "webApplicationsDesc": "Tailored web apps built with the latest technologies.",
+    "apiIntegration": "API Integration",
+    "apiIntegrationDesc": "Seamless integration for smooth data sharing and functionality.",
+    "userInterfaces": "User Interfaces",
+    "userInterfacesDesc": "Engaging, responsive front-end designs for better user experiences.",
+    "databaseSolutions": "Database Solutions",
+    "databaseSolutionsDesc": "Efficient and scalable database management for your data needs.",
+    "realTimeFeatures": "Real-Time Features",
+    "realTimeFeaturesDesc": "Add live chat, notifications, and real-time data updates.",
+    "speedOptimization": "Speed Optimization",
+    "speedOptimizationDesc": "Boost performance with faster load times and optimization."
+  },
+  "projects": {
+    "title": "My Projects",
+    "description": "Here are some of my recent projects.",
+    "viewDemo": "View Demo",
+    "viewCode": "View Code"
+  },
+  "skills": {
+    "title": "My Skills"
+  },
+  "contact": {
+    "title": "Let's work together",
+    "description": "Please fill out the form below to get in touch with me.",
+    "name": "Your Name",
+    "email": "Your Email Address",
+    "phone": "Your Phone Number",
+    "service": "Select a Service",
+    "message": "Message",
+    "submit": "Send Message",
+    "success": "Email sent successfully!",
+    "error": "Failed to send email.",
+    "errors": {
+      "nameRequired": "Name must be at least 2 characters",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneInvalid": "Phone number must be at least 10 digits",
+      "serviceRequired": "Please select a service",
+      "messageRequired": "Message must be at least 10 characters"
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  },
+  "contactInfo": {
+    "phone": "Phone",
+    "email": "Email Address"
+  }
+}

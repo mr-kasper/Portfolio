@@ -1,0 +1,76 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bienvenue sur mon Portfolio",
+    "subtitle": "Je suis Développeur Full Stack",
+    "description": "Création d'expériences web modernes avec des technologies de pointe",
+    "button": "Télécharger le CV"
+  },
+  "about": {
+    "title": "À propos",
+    "description": "Bonjour, je suis Rachid Saadi — un développeur full-stack avec un accent particulier sur le frontend. Je me spécialise dans la création d'applications performantes et centrées sur l'utilisateur en utilisant des technologies comme React.js, Next.js, TypeScript et Tailwind CSS. Je suis passionné par le design épuré, les interactions fluides et le code maintenable.\n\nCôté backend, je maîtrise Node.js, Prisma, Drizzle ORM, NestJS et GraphQL, et je travaille avec confiance avec MySQL et PostgreSQL pour garantir des solutions de données fiables et évolutives.\n\nQu'il s'agisse d'une application de messagerie en temps réel, d'une plateforme de partage de fichiers ou d'un tableau de bord d'administration évolutif, j'aime transformer des idées en expériences numériques intuitives et efficaces.\n\nConstruisons ensemble quelque chose d'extraordinaire.",
+    "years": "Années",
+    "completedProjects": "Projets Complétés",
+    "websitesLaunched": "Sites Web Lancés"
+  },
+  "services": {
+    "title": "Mes Services",
+    "description": "Services professionnels que je propose pour aider votre entreprise à se développer.",
+    "frontend": "Développement Frontend",
+    "backend": "Développement Backend",
+    "fullstack": "Développement Fullstack",
+    "webApplications": "Applications Web",
+    "webApplicationsDesc": "Applications web sur mesure développées avec les dernières technologies.",
+    "apiIntegration": "Intégration d'API",
+    "apiIntegrationDesc": "Intégration transparente pour un partage de données et une fonctionnalité fluides.",
+    "userInterfaces": "Interfaces Utilisateur",
+    "userInterfacesDesc": "Designs front-end attrayants et réactifs pour de meilleures expériences utilisateur.",
+    "databaseSolutions": "Solutions de Base de Données",
+    "databaseSolutionsDesc": "Gestion efficace et évolutive des bases de données pour vos besoins.",
+    "realTimeFeatures": "Fonctionnalités en Temps Réel",
+    "realTimeFeaturesDesc": "Ajoutez des chats en direct, des notifications et des mises à jour de données en temps réel.",
+    "speedOptimization": "Optimisation de la Vitesse",
+    "speedOptimizationDesc": "Améliorez les performances avec des temps de chargement plus rapides et une optimisation."
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "description": "Voici quelques-uns de mes projets récents.",
+    "viewDemo": "Voir la Démo",
+    "viewCode": "Voir le Code"
+  },
+  "skills": {
+    "title": "Mes Compétences"
+  },
+  "contact": {
+    "title": "Travaillons ensemble",
+    "description": "Veuillez remplir le formulaire ci-dessous pour me contacter.",
+    "name": "Votre Nom",
+    "email": "Votre Adresse Email",
+    "phone": "Votre Numéro de Téléphone",
+    "service": "Sélectionnez un Service",
+    "message": "Message",
+    "submit": "Envoyer le Message",
+    "success": "Email envoyé avec succès !",
+    "error": "Échec de l'envoi de l'email.",
+    "errors": {
+      "nameRequired": "Le nom doit comporter au moins 2 caractères",
+      "emailInvalid": "Veuillez entrer une adresse email valide",
+      "phoneInvalid": "Le numéro de téléphone doit comporter au moins 10 chiffres",
+      "serviceRequired": "Veuillez sélectionner un service",
+      "messageRequired": "Le message doit comporter au moins 10 caractères"
+    }
+  },
+  "footer": {
+    "copyright": "Tous droits réservés."
+  },
+  "contactInfo": {
+    "phone": "Téléphone",
+    "email": "Adresse Email"
+  }
+}

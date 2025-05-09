@@ -1,11 +1,13 @@
 import Image from 'next/image';
-import { navLinks } from '@/../constant/constant';
 import Link from 'next/link';
 import { HiBars3BottomRight } from 'react-icons/hi2';
 import { useEffect, useState } from 'react';
+import LanguageSwitcher from './LanguageSwitcher';
+import { getNavLinks } from './navLinks';
 
 const Nav = ({ openNav }: { openNav: () => void }) => {
   const [navBg, setNavBg] = useState(false);
+  const navLinks = getNavLinks();
 
   useEffect(() => {
     const handler = () => {
@@ -48,6 +50,9 @@ const Nav = ({ openNav }: { openNav: () => void }) => {
             </ul>
           </nav>
           <div className="flex items-center space-x-4">
+            <div className="hidden lg:block mr-6">
+              <LanguageSwitcher />
+            </div>
             <button
               onClick={openNav}
               aria-label="Open mobile navigation menu"

@@ -1,12 +1,16 @@
 import SectionHeading from '@/components/Helper/SectionHeading';
-import { projectData } from '@/Data/data';
+import { getProjectData } from '@/Data/translatedData';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 const Project = () => {
+  const t = useTranslations('projects');
+  const projectData = getProjectData();
+
   return (
     <div id="projects" className="py-16 bg-[#050709]">
-      <SectionHeading>My Projects</SectionHeading>
+      <SectionHeading>{t('title')}</SectionHeading>
       <div className="w-[80%] mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center">
         {projectData.map((project, i) => (
           <div

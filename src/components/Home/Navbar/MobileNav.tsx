@@ -1,6 +1,7 @@
-import { navLinks } from '@/../constant/constant';
 import Link from 'next/link';
 import { CgClose } from 'react-icons/cg';
+import LanguageSwitcher from './LanguageSwitcher';
+import { getNavLinks } from './navLinks';
 
 type MobileNavProps = {
   showNav: boolean;
@@ -9,6 +10,8 @@ type MobileNavProps = {
 
 const MobileNav = ({ showNav, closeNav }: MobileNavProps) => {
   const navOpen = showNav ? 'translate-x-0' : 'translate-x-[-100%]';
+  const navLinks = getNavLinks();
+
   return (
     <>
       <div
@@ -30,6 +33,10 @@ const MobileNav = ({ showNav, closeNav }: MobileNavProps) => {
             </li>
           ))}
         </ul>
+
+        <div className="flex justify-center mt-6">
+          <LanguageSwitcher />
+        </div>
 
         <button
           onClick={closeNav}

@@ -25,4 +25,12 @@
     background: #C277FA;
     border-radius: 5px;
   }
+
+  .language-switcher-active {
+    @apply bg-yellow-400 text-black;
+  }
+
+  .language-switcher-inactive {
+    @apply text-white hover:text-yellow-400;
+  }
 }

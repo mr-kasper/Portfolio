@@ -1,8 +1,12 @@
-import { BaseInfo } from '@/Data/data';
+import { getBaseInfo } from '@/Data/translatedData';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { FaDownload } from 'react-icons/fa';
 
 const Hero = () => {
+  const t = useTranslations('hero');
+  const baseInfo = getBaseInfo();
+
   return (
     <div
       id="home"
@@ -15,28 +19,28 @@ const Hero = () => {
               data-aos="fade-left"
               className="text-2xl md:text-3xl lg:text-4xl mb-5 text-gray-300 font-semibold"
             >
-              I am {BaseInfo.name}
+              {t('title')}
             </h1>
             <h1
               data-aos="fade-right"
               data-aos-delay="100"
               className="text-bg text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-12 lg:leading-14 xl:leading-16 text-white"
             >
-              {BaseInfo.position}
+              {baseInfo.position}
             </h1>
             <p
               data-aos="fade-left"
               data-aos-delay="200"
               className="mt-6 text-sm md:text-base text-white/60"
             >
-              {BaseInfo.description}
+              {baseInfo.description}
             </p>
             <button
               data-aos="zoom-in"
               data-aos-delay="300"
               className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2 cursor-pointer"
             >
-              <span>Download CV</span>
+              <span>{t('button')}</span>
               <FaDownload />
             </button>
           </div>
@@ -46,8 +50,8 @@ const Hero = () => {
             className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-hidden"
           >
             <Image
-              src={BaseInfo.profilePic}
-              alt={BaseInfo.name}
+              src={baseInfo.profilePic}
+              alt={baseInfo.name}
               width={500}
               height={500}
               priority
