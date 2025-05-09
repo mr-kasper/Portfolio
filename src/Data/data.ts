@@ -61,27 +61,37 @@ export const servicesData = [
 export const projectData = [
   {
     id: 1,
-    image: '/images/p1.png',
+    image: '/images/storeit.png',
     url: 'https://agency-opal-eight.vercel.app/',
   },
   {
     id: 2,
-    image: '/images/p1.png',
+    image: '/images/ycdirectory.png',
     url: 'https://agency-opal-eight.vercel.app/',
   },
   {
     id: 3,
-    image: '/images/p1.png',
+    image: '/images/storycareer.png',
     url: 'https://agency-opal-eight.vercel.app/',
   },
   {
     id: 4,
-    image: '/images/p1.png',
+    image: '/images/aimock.png',
     url: 'https://agency-opal-eight.vercel.app/',
   },
   {
     id: 5,
-    image: '/images/p1.png',
+    image: '/images/booking.png',
+    url: 'https://agency-opal-eight.vercel.app/',
+  },
+  {
+    id: 6,
+    image: '/images/paritydeals.png',
+    url: 'https://agency-opal-eight.vercel.app/',
+  },
+  {
+    id: 7,
+    image: '/images/repairshop.png',
     url: 'https://agency-opal-eight.vercel.app/',
   },
 ];
