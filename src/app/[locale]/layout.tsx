@@ -9,6 +9,7 @@ import AnimatedCursor from 'react-animated-cursor';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { setRequestLocale } from 'next-intl/server';
 
 const font = Sora({
   variable: '--font-sora',
@@ -20,6 +21,10 @@ export const metadata: Metadata = {
   title: 'Rachid Portfolio',
   description: 'Welcome to my portfolio website',
 };
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 export default async function RootLayout({
   children,
@@ -37,10 +42,12 @@ export default async function RootLayout({
   let messages;
   try {
     messages = (await import(`../../../messages/${locale}.json`)).default;
-  } catch (error) {
+  } catch {
     // Fall back to default locale if messages can't be loaded
     messages = (await import(`../../../messages/${routing.defaultLocale}.json`)).default;
   }
+
+  setRequestLocale(locale);
 
   return (
     <html lang={locale} className="scroll-smooth custom-scrollbar">
