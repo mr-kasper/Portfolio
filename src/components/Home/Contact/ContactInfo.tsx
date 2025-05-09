@@ -1,4 +1,5 @@
 import { contactData } from '@/Data/data';
+import Link from 'next/link';
 import { FaEnvelope, FaPhone } from 'react-icons/fa';
 
 const ContactInfo = () => {
@@ -10,7 +11,9 @@ const ContactInfo = () => {
         </div>
         <div>
           <h1 className="text-lg sm:text-xl text-white font-bold">Phone</h1>
-          <h1 className="text-base sm:text-lg text-white/70">{contactData.phone}</h1>
+          <Link href={`tel:${contactData.phone}`} className="text-base sm:text-lg text-white/70">
+            {contactData.phone}
+          </Link>
         </div>
       </div>
 
@@ -20,7 +23,9 @@ const ContactInfo = () => {
         </div>
         <div>
           <h1 className="text-lg sm:text-xl text-white font-bold">Email Address</h1>
-          <h1 className="text-base sm:text-lg text-white/70">{contactData.email}</h1>
+          <Link href={`mailto:${contactData.email}`} className="text-base sm:text-lg text-white/70">
+            {contactData.email}
+          </Link>
         </div>
       </div>
     </div>

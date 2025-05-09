@@ -1,15 +1,19 @@
 export const BaseInfo = {
   name: 'Rachid',
   position: 'Full Stack Web Developer',
-  description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!',
+  description: 'Crafting fast, scalable web apps with React, Next.js, TypeScript, and Node.js.',
   profilePic: '/images/hero.png',
 };
 
 export const aboutInfo = {
   title: 'Crafting Web Application with Passion and Precision',
-  description:
-    'lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!',
+  description: `Hi, I’m Rachid Saadi — a full-stack developer with a strong focus on the frontend. I specialize in building high-performance, user-centric applications using technologies like React.js, Next.js, TypeScript, and Tailwind CSS. I’m passionate about clean design, smooth interactions, and maintainable code.
+
+On the backend, I’m proficient with Node.js, Prisma, Drizzle ORM, NestJS, and GraphQL, and I work confidently with MySQL and PostgreSQL to ensure reliable, scalable data solutions.
+
+Whether it's a real-time messaging app, a file-sharing platform, or a scalable admin dashboard, I enjoy turning ideas into intuitive and efficient digital experiences.
+
+Let’s build something amazing together.`,
   experience: '1+',
   project: '40+',
   website: '40+',
@@ -91,33 +95,93 @@ export const skillsData = [
   },
   {
     id: 2,
+    title: 'Next.js',
+    image: '/images/nextjs.svg',
+    percent: '88%',
+  },
+  {
+    id: 3,
     title: 'CSS',
     image: '/images/css.svg',
     percent: '97%',
   },
   {
-    id: 3,
-    title: 'JavaScript',
-    image: '/images/js.svg',
-    percent: '77%',
-  },
-  {
     id: 4,
-    title: 'TypeScript',
-    image: '/images/ts.svg',
-    percent: '67%',
+    title: 'Tailwind CSS',
+    image: '/images/tailwind.svg',
+    percent: '92%',
   },
   {
     id: 5,
-    title: 'HTML',
-    image: '/images/html.svg',
-    percent: '67%',
+    title: 'JavaScript',
+    image: '/images/js.svg',
+    percent: '80%',
   },
   {
     id: 6,
+    title: 'TypeScript',
+    image: '/images/ts.svg',
+    percent: '77%',
+  },
+  {
+    id: 7,
+    title: 'HTML',
+    image: '/images/html.svg',
+    percent: '90%',
+  },
+  {
+    id: 8,
     title: 'Node JS',
     image: '/images/node.svg',
-    percent: '77%',
+    percent: '70%',
+  },
+  {
+    id: 9,
+    title: 'Prisma',
+    image: '/images/prisma.svg',
+    percent: '75%',
+  },
+  {
+    id: 10,
+    title: 'Drizzle ORM',
+    image: '/images/drizzle.svg',
+    percent: '68%',
+  },
+  {
+    id: 11,
+    title: 'MySQL',
+    image: '/images/mysql.svg',
+    percent: '80%',
+  },
+  {
+    id: 12,
+    title: 'PostgreSQL',
+    image: '/images/postgresql.svg',
+    percent: '80%',
+  },
+  {
+    id: 13,
+    title: 'Nest JS',
+    image: '/images/nestjs.svg',
+    percent: '67%',
+  },
+  {
+    id: 14,
+    title: 'GraphQL',
+    image: '/images/graphql.svg',
+    percent: '78%',
+  },
+  {
+    id: 15,
+    title: 'PHP',
+    image: '/images/php.svg',
+    percent: '80%',
+  },
+  {
+    id: 16,
+    title: 'Laravel',
+    image: '/images/laravel.svg',
+    percent: '74%',
   },
 ];
 
