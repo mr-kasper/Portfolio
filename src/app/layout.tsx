@@ -4,6 +4,7 @@ import './globals.css';
 import ResponsiveNav from '@/components/Home/Navbar/ResponsiveNav';
 import Footer from '@/components/Home/Footer/Footer';
 import { Toaster } from 'react-hot-toast';
+import ScrollToTop from '@/components/Helper/ScrollToTop';
 
 const font = Sora({
   variable: '--font-sora',
@@ -28,6 +29,7 @@ export default function RootLayout({
         <ResponsiveNav />
         {children}
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );
