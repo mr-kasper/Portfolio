@@ -1,5 +1,5 @@
 export const BaseInfo = {
-  name: 'Sajal',
+  name: 'Rachid',
   position: 'Full Stack Web Developer',
   description:
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!',
@@ -10,10 +10,9 @@ export const aboutInfo = {
   title: 'Crafting Web Application with Passion and Precision',
   description:
     'lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!',
-  client: '50+',
-  experience: '3+',
-  project: '200+',
-  website: '100+',
+  experience: '1+',
+  project: '40+',
+  website: '40+',
 };
 
 export const servicesData = [
@@ -25,45 +24,33 @@ export const servicesData = [
   },
   {
     id: 2,
-    title: 'E-commerce Websites',
-    description: 'Secure online stores with user-friendly shopping and payments.',
-    icon: '/images/s2.png',
-  },
-  {
-    id: 3,
     title: 'API Integration',
     description: 'Seamless integration for smooth data sharing and functionality.',
     icon: '/images/s3.png',
   },
   {
-    id: 4,
+    id: 3,
     title: 'User Interfaces',
     description: 'Engaging, responsive front-end designs for better user experiences.',
     icon: '/images/s4.png',
   },
   {
-    id: 5,
+    id: 4,
     title: 'Database Solutions',
     description: 'Efficient and scalable database management for your data needs.',
     icon: '/images/s5.png',
   },
   {
-    id: 6,
+    id: 5,
     title: 'Real-Time Features',
     description: 'Add live chat, notifications, and real-time data updates.',
     icon: '/images/s6.png',
   },
   {
-    id: 7,
+    id: 6,
     title: 'Speed Optimization',
     description: 'Boost performance with faster load times and optimization.',
     icon: '/images/s7.png',
-  },
-  {
-    id: 8,
-    title: 'Website Management',
-    description: 'Easy content management systems with flexible controls.',
-    icon: '/images/s8.png',
   },
 ];
 
@@ -131,30 +118,6 @@ export const skillsData = [
     title: 'Node JS',
     image: '/images/node.svg',
     percent: '77%',
-  },
-  {
-    id: 7,
-    title: 'MongoDB',
-    image: '/images/mongo.svg',
-    percent: '65%',
-  },
-  {
-    id: 8,
-    title: 'Python',
-    image: '/images/python.svg',
-    percent: '55%',
-  },
-  {
-    id: 9,
-    title: 'Firebase',
-    image: '/images/firebase.svg',
-    percent: '75%',
-  },
-  {
-    id: 10,
-    title: 'Vue',
-    image: '/images/vue.svg',
-    percent: '35%',
   },
 ];
 
