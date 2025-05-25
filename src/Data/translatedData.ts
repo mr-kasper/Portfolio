@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 // Static data that doesn't need translations
 export const BaseInfo = {
   name: 'Rachid',
-  profilePic: '/images/hero.png',
+  profilePic: '/images/hero.webp',
 };
 
 // Static number data

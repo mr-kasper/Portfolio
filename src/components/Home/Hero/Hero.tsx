@@ -1,10 +1,12 @@
 import { getBaseInfo } from '@/Data/translatedData';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
 import { FaDownload } from 'react-icons/fa';
+import Link from 'next/link';
 
 const Hero = () => {
   const t = useTranslations('hero');
+  const locale = useLocale();
   const baseInfo = getBaseInfo();
 
   return (
@@ -35,14 +37,19 @@ const Hero = () => {
             >
               {baseInfo.description}
             </p>
-            <button
-              data-aos="zoom-in"
-              data-aos-delay="300"
-              className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2 cursor-pointer"
+            <Link
+              href={`/files/rachid_saadi-resume-${locale === 'en' ? 'en' : 'fr'}.pdf`}
+              target="_blank"
             >
-              <span>{t('button')}</span>
-              <FaDownload />
-            </button>
+              <button
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2 cursor-pointer"
+              >
+                <span>{t('button')}</span>
+                <FaDownload />
+              </button>
+            </Link>
           </div>
           <div
             data-aos="zoom-in"
