@@ -63,37 +63,37 @@ export const getProjectData = () => {
     {
       id: 1,
       image: '/images/storeit.png',
-      url: 'https://agency-opal-eight.vercel.app/',
+      url: 'https://store-it-liard-alpha.vercel.app/',
     },
     {
       id: 2,
       image: '/images/ycdirectory.png',
-      url: 'https://agency-opal-eight.vercel.app/',
+      url: 'https://yc-startup-directory-eta.vercel.app/',
     },
     {
       id: 3,
       image: '/images/storycareer.png',
-      url: 'https://agency-opal-eight.vercel.app/',
+      url: 'https://storycareer-khaki.vercel.app/',
     },
     {
       id: 4,
       image: '/images/aimock.png',
-      url: 'https://agency-opal-eight.vercel.app/',
+      url: 'https://ai-mock-interviews-coral.vercel.app/',
     },
     {
       id: 5,
       image: '/images/booking.png',
-      url: 'https://agency-opal-eight.vercel.app/',
+      url: 'https://mrkasper-booking-app.netlify.app/',
     },
     {
       id: 6,
       image: '/images/paritydeals.png',
-      url: 'https://agency-opal-eight.vercel.app/',
+      url: 'https://parity-deals-clone-chi.vercel.app/',
     },
     {
       id: 7,
       image: '/images/repairshop.png',
-      url: 'https://agency-opal-eight.vercel.app/',
+      url: 'https://repair-shop-eight.vercel.app/',
     },
   ];
 };
